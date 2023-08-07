@@ -1,6 +1,6 @@
 import Web3 from "web3";
-import ButtonWithOutline from "./ButtonWithOutline";
-import { useEffect, useState } from "react";
+// import ButtonWithOutline from "./ButtonWithOutline";
+import { useState } from "react";
 import {NotificationContainer, NotificationManager} from 'react-notifications';
 import 'react-notifications/lib/notifications.css';
 import contractAbi from "./abi/FAM.json";
@@ -96,7 +96,7 @@ export default function HeroMain() {
         </p>
         <div className="flex flex-row justify-center md:justify-start">
           {
-            walletAddress != '' ?
+            walletAddress !== '' ?
               <button
                 type="button"
                 className="mt-4 inline-flex items-center rounded-full bg-[#1C1C1C]  border border-[#26E2FF]  px-6 py-2 text-base font-medium text-white shadow-sm"
