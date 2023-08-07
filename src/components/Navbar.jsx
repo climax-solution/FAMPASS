@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import favicon from "../assets/favicon.png";
-import facebook from "../assets/facebook_icon.svg";
+// import facebook from "../assets/facebook_icon.svg";
 import instagram from "../assets/instagram_icon.svg";
 import twitter from "../assets/twitter_icon.svg";
 import music from "../assets/music_icon.svg";
