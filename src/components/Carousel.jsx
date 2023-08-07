@@ -15,6 +15,7 @@ export default function Carousel({ products }) {
                 <img
                   src={product.imageSrc}
                   className="m-auto object-center group-hover:opacity-75"
+                  alt="Product"
                 />
               </div>
               <div className="mt-4 flex items-center justify-center  text-center font-medium text-gray-900">

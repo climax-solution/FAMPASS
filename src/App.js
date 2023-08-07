@@ -45,6 +45,7 @@ function App() {
       <img
         src={backgroundImage}
         className="absolute top-0 left-0 -z-0 scale-175 md:scale-150"
+        alt = "background"
       />
       <div className="z-10 relative">
         <Navbar />
@@ -57,10 +58,10 @@ function App() {
               <HeroMain />
             </div>
             <div className="w-full md:w-2/5 hover-animation order-2">
-              <img className="m-auto" src={mainKey} />
+              <img className="m-auto" src={mainKey} alt="Main Key" />
             </div>
             <div className="w-full md:w-2/5 mt-[12%] flex flex-col items-center order-3">
-              <img src={stars} className="my-20  md:mb-20" />
+              <img src={stars} className="my-20  md:mb-20" alt="Stars" />
               <div className="flex items-center md:mt-20">
                 <div className="flex flex-col items-center mr-5">
                   <p className="text-white text-[30px] leading-10">333</p>
@@ -92,6 +93,7 @@ function App() {
           <img
             className="hidden md:block absolute bottom-1/2 left-20"
             src={stars}
+            alt="Stars"
           />
         </div>
       </div>
