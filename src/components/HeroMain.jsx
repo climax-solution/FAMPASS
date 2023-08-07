@@ -46,7 +46,7 @@ export default function HeroMain() {
         if(chainId === '0x5') {
           const contract = new web3.eth.Contract(nftContract, contractAddress);
           await contract.methods.mint(walletAddress).send({
-            value: tokenPrice * 10**18,
+            value: web3.utils.toWei(tokenPrice, 'ether'),
             from: walletAddress
           })
           .then(data => {
